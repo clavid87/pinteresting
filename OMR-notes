@@ -1,0 +1,13 @@
+
+
+
+Resource = CRUD
+Create
+Read
+Update
+Destroy
+
+Twitter's Resources:
+1. User
+2. Tweet
+3. Session
