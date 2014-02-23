@@ -1,13 +1,46 @@
 
+Commands
+========
+git add . # stage all changes for commit
+git commit -am "MESSAGE" # commit all changes with message
+git push # push to GitHub
+
+rake db:migrate # runs migration file so that it generates tables in your database
+
+git push heroku master # push changes to heroku
+heroku open # opens heroku app?
+heroku rename newNAME # replaces new domain name for heroku app
+
+heroku logs --tail #for debugging
+
+heroku run rake db:migrate # migrate db to heroku
 
 
+Resources
+=========
 Resource = CRUD
-Create
-Read
-Update
-Destroy
+Create / Post
+Read / Get
+Update / Put
+Destroy / Delete
 
-Twitter's Resources:
+Twitter Resources:
 1. User
 2. Tweet
 3. Session
+
+Misc.
+=====
+Ruby code
+<%= xyz %> } equal-sign means "visible on page"
+<% xyz %> } no equal-sign "invisible"
+
+Loop (example)
+    <% @pins.each do |pin| %>
+      <tr>
+        <td><%= pin.description %></td>
+        <td><%= link_to 'Show', pin %></td>
+        <td><%= link_to 'Edit', edit_pin_path(pin) %></td>
+        <td><%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>

@@ -1,5 +1,3 @@
-# One Month Rails
+# Exercise App for One Month Rails
 
-This is the pinteresting sample application for [*One Month Rails*](http://onemonthrails.com)
-
-by [Mattan Griffel](http://mattangriffel.com)
+"Pinterest"-like app I'm building for [*One Month Rails*](http://onemonthrails.com)
